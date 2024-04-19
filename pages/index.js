@@ -54,7 +54,7 @@ function Page({
   // githubData2,
   dataPieces,
   game,
-  gameTitle,
+  gameTitle,  
   events,
   carouselCards,
   context

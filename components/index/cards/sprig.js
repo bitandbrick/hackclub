@@ -195,8 +195,7 @@ export default function Sprig({ stars, game, gameImage, gameImage1 }) {
             variant="subtitle"
             sx={{ zIndex: 2, position: 'relative' }}
           >
-            Draw, make music, and craft games in our web-based JavaScript game
-            editor, which has been used by 7k+ makers around the world.
+            EveryoneCanMake
           </Text>
           <Flex sx={{ flexDirection: 'column', mt: [3, 3, 4] }}>
             <Buttons
@@ -234,12 +233,12 @@ export default function Sprig({ stars, game, gameImage, gameImage1 }) {
               position: 'relative'
             }}
           >
-            New from{' '}
+           From{' '}
             <Link
               href="https://sprig.hackclub.com/gallery"
               sx={{ textDecoration: 'none', color: 'inherit' }}
             >
-              the gallery
+              Bit & Brick
             </Link>
             ...
           </Text>
@@ -255,25 +254,6 @@ export default function Sprig({ stars, game, gameImage, gameImage1 }) {
               width: ['100%', '90%', '90%']
             }}
           >
-            <Game
-              game={game[0]}
-            // gameImage={gameImage}
-            />
-            <Game
-              game={game[1]}
-              // gameImage1={gameImage1}
-              sx={{ display: ['none', 'flex', 'flex'] }}
-            />
-            <Game
-              game={game[2]}
-              // gameImage={gameImage}
-              sx={{ display: ['none', 'none', 'flex'] }}
-            />
-            <Game
-              game={game[3]}
-              // gameImage1={gameImage1}
-              sx={{ display: ['none', 'none', 'none', 'flex'] }}
-            />
           </Grid>
         </Box>
       </Grid>
