@@ -22,7 +22,7 @@
     "@hackclub/theme": "^0.3.3",
     "@mdx-js/loader": "^3.0.1",
     "@mdx-js/react": "^3.0.1",
-    "@next/mdx": "^14.1.0",
+    "@next/mdx": "^14.2.3",
     "@octokit/auth-app": "^6.0.1",
     "@octokit/core": "^5.1.0",
     "@octokit/rest": "^20.0.2",
